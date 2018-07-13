@@ -1,0 +1,18 @@
+@import "~normalize.css";
+
+:global {
+    :root {
+        font-size: 16px;
+        font-family: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+}
+
+.App {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.App img {
+    max-width: 100%;
+    height: auto;
+}
